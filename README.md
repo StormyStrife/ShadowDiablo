@@ -1,18 +1,33 @@
-<p align="center">
-<img width="554" src="https://user-images.githubusercontent.com/204594/113575181-c946a400-961d-11eb-8347-a8829fa3830c.png">
-</p>
+# What is ShadowDiablo?
 
----
+ShadowDiablo is a mod for Diablo 1 I intend on making to learn how to make a game in DevilutionX, it will contain a bunch of random different changes made purely to see if I can do them. I don't promise that this'll be good. I named it that because I can name characters and settings, but I can't name projects for jack shit, lol.
 
-[![Discord Channel](https://img.shields.io/discord/518540764754608128?color=%237289DA&logo=discord&logoColor=%23FFFFFF)](https://discord.gg/YQKCAYQ)
-[![Downloads](https://img.shields.io/github/downloads/diasurgical/devilutionX/total.svg)](https://github.com/diasurgical/devilutionX/releases/latest)
-[![Codecov](https://codecov.io/gh/diasurgical/devilutionX/branch/master/graph/badge.svg)](https://codecov.io/gh/diasurgical/devilutionX)
+ShadowDiablo's list of possible future changes are:
 
-<p align="center">
-<img width="838" src="https://user-images.githubusercontent.com/204594/113578478-26912400-9623-11eb-9ff6-9bd9717462b6.png">
-</p>
+-New Enemies: Slimes; there is one variant per zone planned, nothing else is really planned, I just think they'd be graphically simple to add.
+-A different HUD; something Hand-drawn, I can't promise a PG-13 rating.
+-New Base Items: I want to add new ring and amulet types, as well as chest pieces and shields.
+-Redrawn graphics: basic items like Elixirs, potions, and other small inventory items will get different graphics hand-drawn by myself, probly.
+-New class: Succubus; This is listed in the idea list as an "extreme" item as in, an Extreme volume of work needed, but I have a ton in mind for it, including a class skill that can enslave an enemy permanently to become your minion until death (won't work on Uniques)
+-Upgradeable class skills
+-Magic Item effects are displayed like those of a Unique Item and may roll up to 6 effects.
+-Consumable item that adds its affixes to Mundane items to turn them into Magic items. Plans exist to allow this for Unique items as well, but there are no plans to allow multiple unique item affix sets on a single item, unlike magic item effects, which are planned to be stackable (not numerically, but instead adding effects to existing magic items).
+-displayable in-game tile grid for those who want it, it'll be displayed between decorative objects and the floors itself with possibly options to allow players to see walkable and unwalkable space.
+-A smaller Tristram; I wanna see how easy it would be to make it work, basically just make it rather small, about as small as possible really.
+-Another spellbook page with new spells, also Identify added as a spell you can jsut cast yourself.
+-Farnham will sell up to the last 6 items you sold.
+-Gillian sells jewelry.
+-Maximum stats at 999, build yourself however you want.
+-New dual and triple-stat elixirs that add one in two or three stats, as well as elixirs that add multiple points to one stat. Ideally, making Elixirs drop as magic items with randomly-rolled affixes to give you permanent stats would be cool as hell. These random magic elixirs will require identification because they'll also be able to take stats away or remove 1 stat, add 1 elsewhere.
+-Books act like the above Elixirs, you gotta identify them before you can tell what they'll give you. Some books are cursed.
+-New Item Affixes, such as one that specifically converts the item's requirements from say... Strength into Magic, or Dexterity into Vitality.
+-Pepin buys potions and scrolls of healing/mana/rejuvination; mana and rejuvination scrolls will exist, I like how scrolls of healing work vs potions of healing.
+-Larger inventory; More Slots to fit more in.
+-Stackable Scrolls
+-Jewelry can roll spell charges identically to how staves can.
 
-<sub>*(The health-bar and XP-bar are off by default, but can be enabled in the [game settings](https://github.com/diasurgical/devilutionX/wiki/DevilutionX-diablo.ini-configuration-guide). Widescreen can also be disabled if preferred)*</sub>
+And really, a bunch more changes could get written down (like a max gold stack of 500K)
+
 
 # What is DevilutionX
 
@@ -24,42 +39,13 @@ For a full list of changes see our [changelog](docs/CHANGELOG.md).
 
 # How to Install
 
-Note: You'll need access to the data from the original game. If you don't have an original CD then you can [buy Diablo from GoG.com](https://www.gog.com/game/diablo). Alternately you can use `spawn.mpq` from the [shareware](https://github.com/diasurgical/devilutionx-assets/releases/download/v2/spawn.mpq) [[2]](http://ftp.blizzard.com/pub/demos/diablosw.exe) version, in place of `DIABDAT.MPQ`, to play the shareware portion of the game.
+Note: You require DIABDAT.MPQ from either the original Install disc of Diablo 1, an iso of said disc, or the GOG installation of Diablo 1 to run this, placed within the same folder.
 
-Download the latest [DevilutionX release](https://github.com/diasurgical/devilutionX/releases/latest) and extract the contents to a location of your choosing or [build from source](#building-from-source).
-
-- Copy `DIABDAT.MPQ` from the CD or GOG-installation (or [extract it from the GoG installer](https://github.com/diasurgical/devilutionX/wiki/Extracting-the-.MPQs-from-the-GoG-installer)) to the DevilutionX folder.
-- To run the Diablo: Hellfire expansion you will need to also copy `hellfire.mpq`, `hfmonk.mpq`, `hfmusic.mpq`, `hfvoice.mpq`.
-
-For more detailed instructions: [Installation Instructions](./docs/installing.md).
-
-# Contributing
-
-We are always looking for more people to help with [coding](docs/CONTRIBUTING.md), [documentation](https://github.com/diasurgical/devilutionX/wiki), testing the [latest builds](https://app.circleci.com/pipelines/github/diasurgical/devilutionX?branch=master), spreading the word, or simply just hanging out on [the chat](https://discord.gg/YQKCAYQ).
-
-# Mods
-
-We hope to provide a good starting point for mods, in addition to the full Devilution source code we also provide modding tools. Also, check out the list of known [mods based on DevilutionX](https://github.com/diasurgical/devilutionX/wiki/Mods-and-related-projects).
+This game has not had a release as of yet, so there's nothing to install yet.
 
 # Test builds
 
-If you want to help test the latest development stage of the next version (make sure to backup your files as these may contain bugs), you can fetch the test build artifact from one of the build server:
-
-*Note: You must be logged into GitHub to download the attachments!*
-
-[![Linux x86](https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86.yml?query=branch%3Amaster)
-[![Linux x86-64 SDL1](https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86_64_SDL1.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/Linux_x86_64_SDL1.yml?query=branch%3Amaster)
-[![MacOSX](https://github.com/diasurgical/devilutionX/actions/workflows/MacOSX.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/MacOSX.yml?query=branch%3Amaster)
-[![Windows x64](https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MSVC_x64.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MSVC_x64.yml?query=branch%3Amaster)
-[![Windows MinGW x64](https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MinGW_x64.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MinGW_x64.yml?query=branch%3Amaster)
-[![Windows MinGW x86](https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MinGW_x86.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/Windows_MinGW_x86.yml?query=branch%3Amaster)
-[![Android](https://github.com/diasurgical/devilutionX/actions/workflows/Android.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/Android.yml?query=branch%3Amaster)
-[![iOS](https://github.com/diasurgical/devilutionX/actions/workflows/iOS.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/iOS.yml?query=branch%3Amaster)
-[![PS4](https://github.com/diasurgical/devilutionX/actions/workflows/PS4.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/PS4.yml?query=branch%3Amaster)
-[![Original Xbox](https://github.com/diasurgical/devilutionX/actions/workflows/xbox_nxdk.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/xbox_nxdk.yml?query=branch%3Amaster)
-[![Xbox One/Series](https://github.com/diasurgical/devilutionX/actions/workflows/xbox_one.yml/badge.svg)](https://github.com/diasurgical/devilutionX/actions/workflows/xbox_one.yml?query=branch%3Amaster)
-
-Linux x86-64, Switch, Vita, 3DS, Amiga, [![CircleCI](https://circleci.com/gh/diasurgical/devilutionX.svg?style=shield)](https://app.circleci.com/pipelines/github/diasurgical/devilutionX?branch=master)
+No releases have happened as of yet.
 
 # Building from Source
 
@@ -69,11 +55,10 @@ Want to compile the program by yourself? Great! Simply follow the [build instruc
 
 - The original Devilution project [Devilution](https://github.com/diasurgical/devilution#credits)
 - [Everyone](https://github.com/diasurgical/devilutionX/graphs/contributors) who worked on Devilution/DevilutionX
-- [Nikolay Popov](https://www.instagram.com/nikolaypopovz/) for UI and graphics
-- [WiAParker](https://wiaparker.pl/projekty/diablo-hellfire/) for the Polish voice pack
-- And thanks to all who support the project, report bugs, and help spread the word ❤️
 
 # Legal
+
+This is a Fork of DevilutionX and as such is licenced under the same license.
 
 DevilutionX is made publicly available and released under the Sustainable Use License (see [LICENSE](LICENSE.md))
 
